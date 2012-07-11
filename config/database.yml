@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: mhapp_development
+  pool: 5
+  username: mhapp
+  password: haselkomhapp
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: mhapp_test
+  pool: 5
+  username: mhapp
+  password: haselkomhapp
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: mhapp_production
+  pool: 5
+  username: mhapp
+  password: haselkomhapp
